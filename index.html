@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Quiz</title>
+    <style>
+        body {background-color: rgb(255, 255, 255);}
+        h1   {color: rgb(255, 0, 0);}
+        p    {color: rgb(25, 0, 255);}
+        h1 {
+  font-size: 2.5em; /* 40px/16=2.5em */
+}
+
+h2 {
+  font-size: 1.875em; /* 30px/16=1.875em */
+}
+
+p {
+  font-size: 1.300em; /* 14px/16=0.875em */
+}
+
+        </style>
+        
+</head>
+<body>
+    <h1>Welcome to the Quiz!</h1>
+    <p>Test your knowledge about Pokémon</p>
+    <img src="https://mediaproxy.tvtropes.org/width/1200/https://static.tvtropes.org/pmwiki/pub/images/pokemonbig.png"
+    alt="this is a picture of Pokémon" style="width:600px;height:300px;">  
+</form>
+    <!-- Question 1 -->
+    <h2>1. Which of these Pokémon types don’t exist?</h2>
+    <label><input type="checkbox" name="q1" value="a"> A) Fire</label><br>
+    <label><input type="checkbox" name="q1" value="b"> B) Water</label><br>
+    <label><input type="checkbox" name="q1" value="c"> C) Grass</label><br>
+    <label><input type="checkbox" name="q1" value="d"> D) Light</label><br><br>
+
+    <!-- Question 2 -->
+    <h2>2. What colour is Ash’s hat?</h2>
+    <label><input type="checkbox" name="q2" value="a"> A) Red</label><br>
+    <label><input type="checkbox" name="q2" value="b"> B) Pink</label><br>
+    <label><input type="checkbox" name="q2" value="c"> C) Red</label><br>
+    <label><input type="checkbox" name="q2" value="d"> D) Purple</label><br><br>
+
+   <!-- Question 3 -->
+   <h2>3. What type of Pokémon is Pikachu? </h2>
+   <label><input type="checkbox" name="q3" value="a"> A) Grass</label><br>
+   <label><input type="checkbox" name="q3" value="b"> B) Rock</label><br>
+   <label><input type="checkbox" name="q3" value="c"> C) Electric</label><br>
+   <label><input type="checkbox" name="q3" value="d"> D) Water</label><br><br>
+
+   <!-- Question 4 -->
+   <h2>4.Who is your favourite Pokémon?</h2>
+   <label for="name"></label>
+
+   <input type="text" id="name" name="name" required minlength="4" maxlength="20" size="10" />
+
+    <!-- Question 5 -->
+    <h2>5. How many evolutions does Eevee have?</h2>
+    <label><input type="checkbox" name="q5" value="a"> A) 5</label><br>
+    <label><input type="checkbox" name="q5" value="b"> B) 2</label><br>
+    <label><input type="checkbox" name="q5" value="c"> C) 10</label><br>
+    <label><input type="checkbox" name="q5" value="d"> D) 8</label><br><br>
+
+
+
+    <!-- Submit Button -->
+    <button type="submit">Submit Quiz</button>
+</form>
+</body>
+</html>
